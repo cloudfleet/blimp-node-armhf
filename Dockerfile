@@ -1,4 +1,4 @@
-FROM mazzolino/armhf-debian:wheezy
+FROM library/debian:wheezy
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
             ca-certificates \
